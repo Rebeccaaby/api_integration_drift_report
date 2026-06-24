@@ -123,4 +123,4 @@ The CSV includes both a drift_detected column per row and a location_status colu
 
 7. Alerting: send an automated email or Slack notification when drift is detected above a critical threshold, rather than only writing to a file.
 
-8. Unit toggle: add a units: imperial/metric option to settings.yaml so the normalized model can output in either system depending on the consumer's preference.
+8. Unit toggle: add a units: imperial/metric option to settings.yaml so the normalized model can output in either system depending on the user's preference.
