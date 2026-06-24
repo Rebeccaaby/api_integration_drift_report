@@ -1,10 +1,10 @@
 location,date,source_a,source_b,metric,source_a_value,source_b_value,difference,drift_detected,location_status
-DTW,2026-06-23,weatherapi,meteostat,Avg Temp (F),67.4,66.56,0.84,False,DRIFT DETECTED
-DTW,2026-06-23,weatherapi,meteostat,Max Temp (F),78.9,74.84,4.06,True,DRIFT DETECTED
-DTW,2026-06-23,weatherapi,meteostat,Min Temp (F),56.2,57.38,1.18,False,DRIFT DETECTED
+DTW,2026-06-23,weatherapi,meteostat,Avg Temp (F),67.4,65.84,1.56,False,DRIFT DETECTED
+DTW,2026-06-23,weatherapi,meteostat,Max Temp (F),78.9,73.76,5.14,True,DRIFT DETECTED
+DTW,2026-06-23,weatherapi,meteostat,Min Temp (F),56.2,57.2,1.0,False,DRIFT DETECTED
 DTW,2026-06-23,weatherapi,meteostat,Humidity (%),57,,,False,DRIFT DETECTED
 DTW,2026-06-23,weatherapi,meteostat,Precipitation (in),0.0,0.0,0.0,False,DRIFT DETECTED
-DTW,2026-06-23,weatherapi,meteostat,Wind (mph),9.6,6.28,3.32,True,DRIFT DETECTED
+DTW,2026-06-23,weatherapi,meteostat,Wind (mph),9.6,7.33,2.27,True,DRIFT DETECTED
 ATL,2026-06-23,weatherapi,meteostat,Avg Temp (F),76.3,74.3,2.0,False,DRIFT DETECTED
 ATL,2026-06-23,weatherapi,meteostat,Max Temp (F),83.8,80.06,3.74,True,DRIFT DETECTED
 ATL,2026-06-23,weatherapi,meteostat,Min Temp (F),71.1,68.36,2.74,True,DRIFT DETECTED

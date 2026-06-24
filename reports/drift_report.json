@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T12:39:58.831836",
+  "generated_at": "2026-06-24T14:53:18.493038",
   "total_locations": 2,
   "drift_detected_count": 2,
   "reports": [
@@ -13,22 +13,22 @@
         {
           "metric": "Avg Temp (F)",
           "source_a_value": 67.4,
-          "source_b_value": 66.56,
-          "difference": 0.84,
+          "source_b_value": 65.84,
+          "difference": 1.56,
           "drift_detected": false
         },
         {
           "metric": "Max Temp (F)",
           "source_a_value": 78.9,
-          "source_b_value": 74.84,
-          "difference": 4.06,
+          "source_b_value": 73.76,
+          "difference": 5.14,
           "drift_detected": true
         },
         {
           "metric": "Min Temp (F)",
           "source_a_value": 56.2,
-          "source_b_value": 57.38,
-          "difference": 1.18,
+          "source_b_value": 57.2,
+          "difference": 1.0,
           "drift_detected": false
         },
         {
@@ -48,8 +48,8 @@
         {
           "metric": "Wind (mph)",
           "source_a_value": 9.6,
-          "source_b_value": 6.28,
-          "difference": 3.32,
+          "source_b_value": 7.33,
+          "difference": 2.27,
           "drift_detected": true
         }
       ]
