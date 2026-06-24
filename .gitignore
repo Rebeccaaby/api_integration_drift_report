@@ -1,0 +1,14 @@
+# Never commit secrets
+src/config/secrets.yaml
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
+
+# Virtual environment
+venv/
+.env

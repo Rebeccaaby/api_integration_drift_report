@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-06-24T12:39:58.831836",
+  "total_locations": 2,
+  "drift_detected_count": 2,
+  "reports": [
+    {
+      "location": "DTW",
+      "date": "2026-06-23",
+      "source_a": "weatherapi",
+      "source_b": "meteostat",
+      "status": "DRIFT DETECTED",
+      "metrics": [
+        {
+          "metric": "Avg Temp (F)",
+          "source_a_value": 67.4,
+          "source_b_value": 66.56,
+          "difference": 0.84,
+          "drift_detected": false
+        },
+        {
+          "metric": "Max Temp (F)",
+          "source_a_value": 78.9,
+          "source_b_value": 74.84,
+          "difference": 4.06,
+          "drift_detected": true
+        },
+        {
+          "metric": "Min Temp (F)",
+          "source_a_value": 56.2,
+          "source_b_value": 57.38,
+          "difference": 1.18,
+          "drift_detected": false
+        },
+        {
+          "metric": "Humidity (%)",
+          "source_a_value": 57,
+          "source_b_value": null,
+          "difference": null,
+          "drift_detected": false
+        },
+        {
+          "metric": "Precipitation (in)",
+          "source_a_value": 0.0,
+          "source_b_value": 0.0,
+          "difference": 0.0,
+          "drift_detected": false
+        },
+        {
+          "metric": "Wind (mph)",
+          "source_a_value": 9.6,
+          "source_b_value": 6.28,
+          "difference": 3.32,
+          "drift_detected": true
+        }
+      ]
+    },
+    {
+      "location": "ATL",
+      "date": "2026-06-23",
+      "source_a": "weatherapi",
+      "source_b": "meteostat",
+      "status": "DRIFT DETECTED",
+      "metrics": [
+        {
+          "metric": "Avg Temp (F)",
+          "source_a_value": 76.3,
+          "source_b_value": 74.3,
+          "difference": 2.0,
+          "drift_detected": false
+        },
+        {
+          "metric": "Max Temp (F)",
+          "source_a_value": 83.8,
+          "source_b_value": 80.06,
+          "difference": 3.74,
+          "drift_detected": true
+        },
+        {
+          "metric": "Min Temp (F)",
+          "source_a_value": 71.1,
+          "source_b_value": 68.36,
+          "difference": 2.74,
+          "drift_detected": true
+        },
+        {
+          "metric": "Humidity (%)",
+          "source_a_value": 70,
+          "source_b_value": null,
+          "difference": null,
+          "drift_detected": false
+        },
+        {
+          "metric": "Precipitation (in)",
+          "source_a_value": 0.21,
+          "source_b_value": 0.1299,
+          "difference": 0.0801,
+          "drift_detected": false
+        },
+        {
+          "metric": "Wind (mph)",
+          "source_a_value": 13.4,
+          "source_b_value": 10.63,
+          "difference": 2.77,
+          "drift_detected": true
+        }
+      ]
+    }
+  ]
+}

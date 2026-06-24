@@ -1,0 +1,12 @@
+locations:
+  - code: DTW
+    latitude: 42.2162
+    longitude: -83.3554
+
+  - code: ATL
+    latitude: 33.6407
+    longitude: -84.4277
+
+weather_sources:
+  - weatherapi
+  - meteostat
