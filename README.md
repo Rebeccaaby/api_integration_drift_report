@@ -13,7 +13,7 @@ A configuration-driven Python application that retrieves weather data from two d
 `git clone https://github.com/Rebeccaaby/api_integration_drift_report.git` \
 `cd api_integration_drift_report`
 
-### Step 2 — Create a Virtual Environment
+### Step 2 - Create a Virtual Environment
 `python -m venv venv`
 
 #### Windows
@@ -25,7 +25,7 @@ A configuration-driven Python application that retrieves weather data from two d
 ### Step 3 - Install Dependencies
 - `pip install -r requirements.txt`
 
-### Step 4 — Create Your Secrets File
+### Step 4 - Create Your Secrets File
 
 The file `src/config/secrets.yaml` is not included in this repository for not including api keys.
 Create it manually:
@@ -39,7 +39,7 @@ Create it manually:
 WeatherAPI: sign up at weatherapi.com -> Dashboard -> copy API Key
 Meteostat: sign up at rapidapi.com -> subscribe to free plan -> copy x-rapidapi-key
 
-### Step 5 — Add a New Location (Optional)
+### Step 5 - Add a New Location (Optional)
 
 - Open src/config/settings.yaml and add a new entry under locations. No code changes are required
 
